@@ -1,0 +1,44 @@
+body {
+    background-color:#FFFF00;
+    color: #333;
+    margin: 0;
+    /*font: 1.2em / 1.2 Arial, Helvetica, sans-serif;*/
+      font-family: 'Amiri';font-size: 1.2em / 1.2;
+  }
+.container{
+  width:80%; margin:auto;
+}
+    img {
+        width:100%;
+height:auto;
+        /*margin-right:10px;
+        margin-bottom:10px;
+*/
+    }
+
+
+
+/*used for left side content in main class*/
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+
+  footer{display:block; width:100%; height:100px;  text-align:center; }
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.8em;
+    text-align: justify;
+  }
